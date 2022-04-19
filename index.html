@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Formulário BNE</title>
+        <meta name="description" content="Cadastro no BNE">
+        <meta name="author" content="saulvinicius.sm@gmail.com">
+
+        <meta property="og:title" content="Formulário BNE">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Teste de formulário BNE">
+
+        <link rel="icon" href="/favicon.ico">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/style/style.css">
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1 class="main-title">Home Office</h1>
+
+            <div class="area-form">
+                
+                <p>Temos algumas perguntas que nos ajudarão a entender o que você precisa.</p>
+                
+                <form>
+                    <div class="form-row">
+                        <label for="name">Nome*</label>
+                        <div class="field-area">
+                            <input type="text" name="nome" placeholder="Coloque seu nome">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="name">Email*</label>
+                        <div class="field-area">
+                            <input type="text" name="email" placeholder="Coloque seu endereço de email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="name">De 1 a 10, como você se sente?</label>
+                        <div class="field-area">
+                            <input type="number" name="como_sente" placeholder="Enter a number between 1 a 10">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="name">Você trabalha em qual cômodo?</label>
+                        <div class="field-area">
+                            <select name="local">
+                                <option value="">Selecione uma opção</option>
+                                <option value="quarto">Quarto</option>
+                                <option value="sala">Sala</option>
+                                <option value="escritorio">Escritório</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label>Qual seu horário mais produtivo?</label>
+                        <ul class="field-area"> 
+                            <li>
+                                <input type="radio" name="horario" value="manha" />
+                                <label>Manhã</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="horario" value="tarde" />
+                                <label>Tarde</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="horario" value="noite" />
+                                <label>Noite</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-row">
+                        <label for="name">Como está se sentindo?<br>(Todas podem ser marcadas)</label>
+                        <ul class="field-area">
+                            <li>
+                                <input type="checkbox" name="como_sente" value="bem" />
+                                <label>Bem</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="como_sente" value="confuso" />
+                                <label>Confuso</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="como_sente" value="cansado" />
+                                <label>Cansado</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="como_sente" value="empolgado" />
+                                <label>Empolgado</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="como_sente" value="entusiasmado" />
+                                <label>Entusiasmado</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-row">
+                        <label for="name">Descreva sua exeriência com o home office.</label>
+                        <div class="field-area">
+                            <textarea name="experiencia_homeoffice" placeholder="Descreva sua experiência aqui"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row row-button">
+                        <button type="submit" class="btn-send">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>

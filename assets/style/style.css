@@ -1,0 +1,122 @@
+body {
+  background-color: #a9d7e9;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 50px;
+}
+
+body .wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+body .main-title {
+  width: 100%;
+  text-align: center;
+}
+
+body .area-form {
+  background-color: #f3f3f3;
+  padding: 0;
+  border-radius: 10px;
+  padding: 15px 40px 10px;
+}
+
+body .area-form form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body .area-form p {
+  text-align: center;
+}
+
+body .area-form .form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.5em;
+  margin-bottom: 10px;
+}
+
+body .area-form .form-row label {
+  padding: .5em 1em .5em 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+body .area-form .form-row .field-area {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+body .area-form .form-row input[type="text"], body .area-form .form-row input[type="number"], body .area-form .form-row textarea {
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px 5px;
+  font-family: 'Roboto Slab', serif;
+}
+
+body .area-form .form-row select {
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  background-color: #e9e9ed;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
+  padding: 10px 5px;
+}
+
+body .area-form .form-row textarea {
+  height: 60px;
+}
+
+body .area-form .form-row.row-button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .area-form .form-row button {
+  background: #6ba2ce;
+  color: #FFF;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+body .area-form .form-row ul {
+  list-style: none;
+  padding: 0;
+  margin: 7px 0;
+}
+
+body .area-form .form-row ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  body .area-form form {
+    width: 100%;
+  }
+  body .area-form form .form-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .area-form form .form-row label {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=style.css.map */
